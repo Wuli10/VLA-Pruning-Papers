@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30T00:12:00Z",
+  "primary_papers": [],
+  "supplementary_papers": [
+    {
+      "canonical_id": "arxiv:2610.36986",
+      "arxiv_id": "2610.36986",
+      "title": "LearnPrunerV2: Learnable Progressive Token Pruning for Vision-Language Models",
+      "first_public_utc": "2026-10-27T10:35:41Z",
+      "url": "https://arxiv.org/abs/2610.36986",
+      "first_seen_report": "reports/vla_pruning/2026-10-30.md",
+      "scope": "VLM only; no robotic manipulation/VLA experiment verified"
+    }
+  ],
+  "scans": [
+    {
+      "report_date": "2026-10-30",
+      "window_start_utc": "2026-10-27T00:12:00Z",
+      "window_end_utc": "2026-10-30T00:12:00Z",
+      "report_path": "reports/vla_pruning/2026-10-30.md",
+      "new_primary_count": 0
+    }
+  ]
+}
