@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T00:12:00Z",
+  "updated_at": "2026-10-31T02:05:26Z",
   "primary_papers": [],
   "supplementary_papers": [
     {
@@ -11,6 +11,15 @@
       "url": "https://arxiv.org/abs/2610.36986",
       "first_seen_report": "reports/vla_pruning/2026-10-30.md",
       "scope": "VLM only; no robotic manipulation/VLA experiment verified"
+    },
+    {
+      "canonical_id": "arxiv:2610.38303",
+      "arxiv_id": "2610.38303",
+      "title": "Don't Ask the LLM: Visual Token Pruning with Spectral Structure and Semantic Relevance",
+      "first_public_utc": "2026-10-28T05:39:16Z",
+      "url": "https://arxiv.org/abs/2610.38303",
+      "first_seen_report": "reports/vla_pruning/2026-10-31.md",
+      "scope": "VLM only; no robotic manipulation/VLA experiment reported"
     }
   ],
   "scans": [
@@ -19,6 +28,13 @@
       "window_start_utc": "2026-10-27T00:12:00Z",
       "window_end_utc": "2026-10-30T00:12:00Z",
       "report_path": "reports/vla_pruning/2026-10-30.md",
+      "new_primary_count": 0
+    },
+    {
+      "report_date": "2026-10-31",
+      "window_start_utc": "2026-10-28T00:06:16Z",
+      "window_end_utc": "2026-10-31T00:06:16Z",
+      "report_path": "reports/vla_pruning/2026-10-31.md",
       "new_primary_count": 0
     }
   ]
