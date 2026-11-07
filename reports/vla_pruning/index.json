@@ -1,7 +1,28 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T01:34:36Z",
-  "primary_papers": [],
+  "updated_at": "2026-11-07T06:47:21Z",
+  "primary_papers": [
+    {
+      "canonical_id": "arxiv:2611.02284",
+      "arxiv_id": "2611.02284",
+      "title": "SVD-Prune: Spectral Vision Token Pruning under Extreme Compression",
+      "first_public_utc": "2026-11-01T23:28:16Z",
+      "url": "https://arxiv.org/abs/2611.02284",
+      "first_seen_report": "reports/vla_pruning/2026-11-03.md",
+      "scope": "VLA visual token pruning; OpenVLA/LIBERO experiments",
+      "status": "arXiv v1; WACV 2027 acceptance author-claimed, official record not verified"
+    },
+    {
+      "canonical_id": "arxiv:2611.08413",
+      "arxiv_id": "2611.08413",
+      "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+      "first_public_utc": "2026-11-05T18:17:29Z",
+      "url": "https://arxiv.org/abs/2611.08413",
+      "first_seen_report": "reports/vla_pruning/2026-11-07.md",
+      "scope": "VLA visual token pruning; OpenVLA-OFT/CogACT/pi0.5 experiments",
+      "status": "ASP-DAC 2027 program listed; arXiv v1"
+    }
+  ],
   "supplementary_papers": [
     {
       "canonical_id": "arxiv:2610.36986",
@@ -20,6 +41,24 @@
       "url": "https://arxiv.org/abs/2610.38303",
       "first_seen_report": "reports/vla_pruning/2026-10-31.md",
       "scope": "VLM only; no robotic manipulation/VLA experiment reported"
+    },
+    {
+      "canonical_id": "arxiv:2611.04537",
+      "arxiv_id": "2611.04537",
+      "title": "BtsPruner: Role-Aware Visual Token Pruning for Large Vision-Language Models",
+      "first_public_utc": "2026-11-03T09:07:57Z",
+      "url": "https://arxiv.org/abs/2611.04537",
+      "first_seen_report": "reports/vla_pruning/2026-11-04.md",
+      "scope": "VLM only; no robotic manipulation/VLA experiment reported"
+    },
+    {
+      "canonical_id": "arxiv:2611.06047",
+      "arxiv_id": "2611.06047",
+      "title": "RI-Prune: Relation and Information Aware Visual Token Pruning for Multi-Image Vision-Language Models",
+      "first_public_utc": "2026-11-04T06:50:29Z",
+      "url": "https://arxiv.org/abs/2611.06047",
+      "first_seen_report": "reports/vla_pruning/2026-11-05.md",
+      "scope": "Multi-image VLM only; no robotic manipulation/VLA experiment reported"
     }
   ],
   "scans": [
@@ -50,6 +89,46 @@
       "window_end_utc": "2026-11-02T00:05:01Z",
       "report_path": "reports/vla_pruning/2026-11-02.md",
       "new_primary_count": 0
+    },
+    {
+      "report_date": "2026-11-03",
+      "window_start_utc": "2026-10-30T16:03:56Z",
+      "window_end_utc": "2026-11-02T16:03:56Z",
+      "report_path": "reports/vla_pruning/2026-11-03.md",
+      "new_primary_count": 1,
+      "backfilled": true
+    },
+    {
+      "report_date": "2026-11-04",
+      "window_start_utc": "2026-10-31T16:03:44Z",
+      "window_end_utc": "2026-11-03T16:03:44Z",
+      "report_path": "reports/vla_pruning/2026-11-04.md",
+      "new_primary_count": 0,
+      "backfilled": true
+    },
+    {
+      "report_date": "2026-11-05",
+      "window_start_utc": "2026-11-01T16:16:18Z",
+      "window_end_utc": "2026-11-04T16:16:18Z",
+      "report_path": "reports/vla_pruning/2026-11-05.md",
+      "new_primary_count": 0,
+      "backfilled": true
+    },
+    {
+      "report_date": "2026-11-06",
+      "window_start_utc": "2026-11-02T16:37:07Z",
+      "window_end_utc": "2026-11-05T16:37:07Z",
+      "report_path": "reports/vla_pruning/2026-11-06.md",
+      "new_primary_count": 0,
+      "backfilled": true
+    },
+    {
+      "report_date": "2026-11-07",
+      "window_start_utc": "2026-11-04T06:38:18Z",
+      "window_end_utc": "2026-11-07T06:38:18Z",
+      "report_path": "reports/vla_pruning/2026-11-07.md",
+      "new_primary_count": 1,
+      "backfilled": false
     }
   ]
 }
