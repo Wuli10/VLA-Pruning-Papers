@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08T16:09:24Z",
+  "updated_at": "2026-11-10T01:25:18Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -21,6 +21,18 @@
       "first_seen_report": "reports/vla_pruning/2026-11-07.md",
       "scope": "VLA visual token pruning; OpenVLA-OFT/CogACT/pi0.5 experiments",
       "status": "ASP-DAC 2027 program listed; arXiv v1"
+    },
+    {
+      "canonical_id": "arxiv:2611.08827",
+      "arxiv_id": "2611.08827",
+      "title": "ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models",
+      "submitted_utc": "2026-11-06T00:32:27Z",
+      "first_public_utc": "2026-11-09T01:00:00Z",
+      "first_public_basis": "Listed in arXiv cs.RO new submissions for Monday 2026-11-09; time inferred from official Sunday 20:00 US Eastern announcement schedule",
+      "url": "https://arxiv.org/abs/2611.08827",
+      "first_seen_report": "reports/vla_pruning/2026-11-10.md",
+      "scope": "Training-free visual patch pruning and merging before encoder plus embedding pruning after encoder; OpenVLA-OFT/pi0.5, LIBERO/VLABench/real robot",
+      "status": "arXiv v1 preprint; no verified conference acceptance"
     }
   ],
   "supplementary_papers": [
@@ -144,6 +156,14 @@
       "window_end_utc": "2026-11-08T16:00:06Z",
       "report_path": "reports/vla_pruning/2026-11-09.md",
       "new_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-10",
+      "window_start_utc": "2026-11-06T16:14:13Z",
+      "window_end_utc": "2026-11-09T16:14:13Z",
+      "report_path": "reports/vla_pruning/2026-11-10.md",
+      "new_primary_count": 1,
       "backfilled": false
     }
   ]
