@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T16:07:42Z",
+  "updated_at": "2026-11-11T17:22:38Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -37,6 +37,18 @@
       "first_seen_report": "reports/vla_pruning/2026-11-10.md",
       "scope": "Training-free visual patch pruning and merging before encoder plus embedding pruning after encoder; OpenVLA-OFT/pi0.5, LIBERO/VLABench/real robot",
       "status": "arXiv v1 preprint; no verified conference acceptance"
+    },
+    {
+      "canonical_id": "arxiv:2611.13030",
+      "arxiv_id": "2611.13030",
+      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+      "submitted_utc": "2026-11-09T09:28:08Z",
+      "first_public_utc": "2026-11-11T01:00:00Z",
+      "first_public_basis": "Listed in arXiv cs.AI new submissions for Wednesday 2026-11-11; time inferred from official Tuesday 20:00 US Eastern announcement schedule",
+      "url": "https://arxiv.org/abs/2611.13030",
+      "first_seen_report": "reports/vla_pruning/2026-11-12.md",
+      "scope": "Training-based visual token selection after visual encoder; frozen OpenVLA-OFT/pi0.5/XR-1; LIBERO/RoboCasa365/real robot",
+      "status": "arXiv v1 preprint; no verified conference acceptance; code not yet released"
     }
   ],
   "supplementary_papers": [
@@ -184,6 +196,14 @@
       "window_end_utc": "2026-11-10T16:01:03Z",
       "report_path": "reports/vla_pruning/2026-11-11.md",
       "new_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-12",
+      "window_start_utc": "2026-11-08T16:12:52Z",
+      "window_end_utc": "2026-11-11T16:12:52Z",
+      "report_path": "reports/vla_pruning/2026-11-12.md",
+      "new_primary_count": 1,
       "backfilled": false
     }
   ]
