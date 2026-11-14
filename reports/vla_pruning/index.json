@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T22:13:22Z",
+  "updated_at": "2026-11-14T16:03:37Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -238,6 +238,16 @@
       "new_primary_count": 0,
       "new_supplementary_count": 1,
       "updated_primary_count": 1,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-15",
+      "window_start_utc": "2026-11-11T16:00:04Z",
+      "window_end_utc": "2026-11-14T16:00:04Z",
+      "report_path": "reports/vla_pruning/2026-11-15.md",
+      "new_primary_count": 0,
+      "new_supplementary_count": 0,
+      "updated_primary_count": 0,
       "backfilled": false
     }
   ]
