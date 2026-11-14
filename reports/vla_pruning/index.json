@@ -36,7 +36,10 @@
       "url": "https://arxiv.org/abs/2611.08827",
       "first_seen_report": "reports/vla_pruning/2026-11-10.md",
       "scope": "Training-free visual patch pruning and merging before encoder plus embedding pruning after encoder; OpenVLA-OFT/pi0.5, LIBERO/VLABench/real robot",
-      "status": "arXiv v1 preprint; no verified conference acceptance"
+      "status": "arXiv v2 preprint; no verified conference acceptance",
+      "latest_version": "v2",
+      "latest_submitted_utc": "2026-11-11T08:35:25Z",
+      "latest_version_note": "Abstract replaces method-name placeholder and adds project URL; no verified major method or experiment change"
     },
     {
       "canonical_id": "arxiv:2611.13030",
