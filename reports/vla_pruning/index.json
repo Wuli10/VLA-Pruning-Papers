@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T16:00:00Z",
+  "updated_at": "2026-11-17T16:16:19Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -51,7 +51,21 @@
       "url": "https://arxiv.org/abs/2611.13030",
       "first_seen_report": "reports/vla_pruning/2026-11-12.md",
       "scope": "Training-based visual token selection after visual encoder; frozen OpenVLA-OFT/pi0.5/XR-1; LIBERO/RoboCasa365/real robot",
-      "status": "arXiv v1 preprint; no verified conference acceptance; code not yet released"
+      "status": "arXiv v2 preprint; no verified conference acceptance; code not yet released",
+      "latest_version": "v2",
+      "latest_submitted_utc": "2026-11-14T08:36:20Z"
+    },
+    {
+      "canonical_id": "arxiv:2611.21033",
+      "arxiv_id": "2611.21033",
+      "title": "POKE: Probe Offline, Keep Efficiently for Vision-Language-Action Models",
+      "submitted_utc": "2026-11-16T12:52:36Z",
+      "first_public_date": "2026-11-17",
+      "first_public_basis": "arXiv cs.CV new listings for Tuesday, 17 November 2026",
+      "url": "https://arxiv.org/abs/2611.21033",
+      "first_seen_report": "reports/vla_pruning/2026-11-18.md",
+      "scope": "Training-based action-sensitivity visual token pruning; frozen OpenVLA-OFT/pi0.5/OpenVLA; LIBERO, LIBERO-Plus, SimplerEnv open-pi-zero",
+      "status": "arXiv v1 preprint; no verified conference acceptance; code not reported"
     }
   ],
   "supplementary_papers": [
@@ -111,6 +125,30 @@
       "scope": "VLM only; no robot manipulation or VLA experiments reported",
       "status": "arXiv v1 preprint; no verified conference acceptance",
       "submitted_utc": "2026-11-11T05:37:17Z"
+    },
+    {
+      "canonical_id": "arxiv:2611.20505",
+      "arxiv_id": "2611.20505",
+      "title": "How Reliable Is Visual Token Selection? Rethinking Pruning in Multimodal LLMs",
+      "submitted_utc": "2026-11-16T04:18:25Z",
+      "first_public_date": "2026-11-17",
+      "first_public_basis": "arXiv cs.CV new listings for Tuesday, 17 November 2026",
+      "url": "https://arxiv.org/abs/2611.20505",
+      "first_seen_report": "reports/vla_pruning/2026-11-18.md",
+      "scope": "VLM only; no robot manipulation or VLA experiments reported",
+      "status": "arXiv v1; EACL 2027 acceptance author-claimed in arXiv comment, official record not verified"
+    },
+    {
+      "canonical_id": "arxiv:2611.20006",
+      "arxiv_id": "2611.20006",
+      "title": "Glance, then Select: Evidence-Tempered Visual Token Selection for Extremely Compressed Multimodal LLMs",
+      "submitted_utc": "2026-11-15T13:35:25Z",
+      "first_public_date": "2026-11-17",
+      "first_public_basis": "arXiv cs.CV new listings for Tuesday, 17 November 2026",
+      "url": "https://arxiv.org/abs/2611.20006",
+      "first_seen_report": "reports/vla_pruning/2026-11-18.md",
+      "scope": "VLM only; no robot manipulation or VLA experiments reported",
+      "status": "arXiv v1 preprint; no verified conference acceptance"
     }
   ],
   "scans": [
@@ -267,6 +305,16 @@
       "report_path": "reports/vla_pruning/2026-11-17.md",
       "new_primary_count": 0,
       "new_supplementary_count": 0,
+      "updated_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-18",
+      "window_start_utc": "2026-11-14T16:01:44Z",
+      "window_end_utc": "2026-11-17T16:01:44Z",
+      "report_path": "reports/vla_pruning/2026-11-18.md",
+      "new_primary_count": 1,
+      "new_supplementary_count": 2,
       "updated_primary_count": 0,
       "backfilled": false
     }
