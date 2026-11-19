@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T16:16:19Z",
+  "updated_at": "2026-11-19T03:12:30Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -51,9 +51,12 @@
       "url": "https://arxiv.org/abs/2611.13030",
       "first_seen_report": "reports/vla_pruning/2026-11-12.md",
       "scope": "Training-based visual token selection after visual encoder; frozen OpenVLA-OFT/pi0.5/XR-1; LIBERO/RoboCasa365/real robot",
-      "status": "arXiv v2 preprint; no verified conference acceptance; code not yet released",
+      "status": "arXiv v2 preprint; no verified conference acceptance; author code repository available",
       "latest_version": "v2",
-      "latest_submitted_utc": "2026-11-14T08:36:20Z"
+      "latest_submitted_utc": "2026-11-14T08:36:20Z",
+      "code_url": "https://github.com/xingxiaoyang-888/APS-VLA",
+      "code_verified_at_utc": "2026-11-19T03:12:30Z",
+      "code_note": "Existing author repository includes source, scripts, configs, and setup guide; latest push 2026-11-11T18:23:14Z, before 2026-11-19 scan window"
     },
     {
       "canonical_id": "arxiv:2611.21033",
@@ -316,6 +319,17 @@
       "new_primary_count": 1,
       "new_supplementary_count": 2,
       "updated_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-19",
+      "window_start_utc": "2026-11-16T03:06:13Z",
+      "window_end_utc": "2026-11-19T03:06:13Z",
+      "report_path": "reports/vla_pruning/2026-11-19.md",
+      "new_primary_count": 0,
+      "new_supplementary_count": 0,
+      "updated_primary_count": 0,
+      "index_correction_count": 1,
       "backfilled": false
     }
   ]
