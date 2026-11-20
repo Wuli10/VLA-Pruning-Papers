@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T01:47:00Z",
+  "updated_at": "2026-11-20T16:09:09Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -151,6 +151,18 @@
       "url": "https://arxiv.org/abs/2611.20006",
       "first_seen_report": "reports/vla_pruning/2026-11-18.md",
       "scope": "VLM only; no robot manipulation or VLA experiments reported",
+      "status": "arXiv v1 preprint; no verified conference acceptance"
+    },
+    {
+      "canonical_id": "arxiv:2611.25537",
+      "arxiv_id": "2611.25537",
+      "title": "Query-Aware vs. Query-Agnostic Training-Free Video Token Pruning in Multimodal LLMs",
+      "submitted_utc": "2026-11-19T05:36:46Z",
+      "first_public_date": "2026-11-20",
+      "first_public_basis": "arXiv cs.CV new listings for Friday, 20 November 2026",
+      "url": "https://arxiv.org/abs/2611.25537",
+      "first_seen_report": "reports/vla_pruning/2026-11-21.md",
+      "scope": "Video VLM only; no robot manipulation or VLA experiments reported",
       "status": "arXiv v1 preprint; no verified conference acceptance"
     }
   ],
@@ -339,6 +351,16 @@
       "report_path": "reports/vla_pruning/2026-11-20.md",
       "new_primary_count": 0,
       "new_supplementary_count": 0,
+      "updated_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-21",
+      "window_start_utc": "2026-11-17T16:03:14Z",
+      "window_end_utc": "2026-11-20T16:03:14Z",
+      "report_path": "reports/vla_pruning/2026-11-21.md",
+      "new_primary_count": 0,
+      "new_supplementary_count": 1,
       "updated_primary_count": 0,
       "backfilled": false
     }
