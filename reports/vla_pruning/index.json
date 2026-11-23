@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T01:20:59Z",
+  "updated_at": "2026-11-23T16:00:16Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -69,6 +69,24 @@
       "first_seen_report": "reports/vla_pruning/2026-11-18.md",
       "scope": "Training-based action-sensitivity visual token pruning; frozen OpenVLA-OFT/pi0.5/OpenVLA; LIBERO, LIBERO-Plus, SimplerEnv open-pi-zero",
       "status": "arXiv v1 preprint; no verified conference acceptance; code not reported"
+    },
+    {
+      "canonical_id": "arxiv:2604.09244",
+      "arxiv_id": "2604.09244",
+      "title": "2D or 3D? Rethinking Token Pruning in 3D VLAs with Cross-Modal Correlation Awareness",
+      "submitted_utc": "2026-04-10T11:58:39Z",
+      "first_public_utc": null,
+      "first_public_status": "arXiv v1 submission verified; first public announcement date not independently verified",
+      "url": "https://arxiv.org/abs/2604.09244",
+      "first_seen_report": "reports/vla_pruning/2026-11-24.md",
+      "first_seen_as": "important_update_of_existing_paper",
+      "scope": "Joint 2D image and 3D point token pruning in robotic VLA; MLA and FiS-VLA on RLBench/LIBERO and real robot",
+      "status": "arXiv v3 preprint; no verified conference acceptance",
+      "method_category": "Training-based lightweight correlation scorer and compensation maps; VLA backbone frozen",
+      "latest_version": "v3",
+      "latest_submitted_utc": "2026-11-20T07:47:12Z",
+      "latest_announcement_date": "2026-11-23",
+      "latest_announcement_basis": "Listed among arXiv cs.RO/cs.CV replacement submissions for Monday 23 November 2026"
     }
   ],
   "supplementary_papers": [
@@ -382,6 +400,17 @@
       "new_primary_count": 0,
       "new_supplementary_count": 0,
       "updated_primary_count": 0,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-24",
+      "window_start_utc": "2026-11-20T15:58:25Z",
+      "window_end_utc": "2026-11-23T15:58:25Z",
+      "report_path": "reports/vla_pruning/2026-11-24.md",
+      "new_primary_count": 0,
+      "new_supplementary_count": 0,
+      "updated_primary_count": 1,
+      "indexed_existing_update_count": 1,
       "backfilled": false
     }
   ]
