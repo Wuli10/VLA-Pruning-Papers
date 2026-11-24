@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T16:00:16Z",
+  "updated_at": "2026-11-24T21:33:48Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -10,9 +10,11 @@
       "url": "https://arxiv.org/abs/2611.02284",
       "first_seen_report": "reports/vla_pruning/2026-11-03.md",
       "scope": "VLA visual token pruning; OpenVLA/LIBERO experiments",
-      "status": "arXiv v1; WACV 2027 acceptance author-claimed, official record not verified",
+      "status": "WACV 2027 accepted; listed on official WACV 2027 Accepted Papers page; arXiv v1",
       "submitted_utc": "2026-11-01T23:28:16Z",
-      "first_public_status": "Public announcement date not independently verified; prior field contained arXiv v1 submission timestamp"
+      "first_public_status": "Public announcement date not independently verified; prior field contained arXiv v1 submission timestamp",
+      "official_venue_url": "https://wacv.thecvf.com/Conferences/2027/AcceptedPapers",
+      "acceptance_date_status": "Official listing verified during 2026-11-25 scan; exact acceptance announcement date not independently verified"
     },
     {
       "canonical_id": "arxiv:2611.08413",
@@ -87,6 +89,21 @@
       "latest_submitted_utc": "2026-11-20T07:47:12Z",
       "latest_announcement_date": "2026-11-23",
       "latest_announcement_basis": "Listed among arXiv cs.RO/cs.CV replacement submissions for Monday 23 November 2026"
+    },
+    {
+      "canonical_id": "arxiv:2611.28256",
+      "arxiv_id": "2611.28256",
+      "title": "FlowPAC: Flow-Guided Visual Pruning and Action Caching for Efficient VLA Inference",
+      "submitted_utc": "2026-11-20T19:43:40Z",
+      "first_public_date": "2026-11-24",
+      "first_public_basis": "Listed among arXiv cs.RO new submissions for Tuesday 24 November 2026",
+      "url": "https://arxiv.org/abs/2611.28256",
+      "first_seen_report": "reports/vla_pruning/2026-11-25.md",
+      "scope": "Training-free visual token pruning plus action block caching; pi0.5 global/wrist cameras on LIBERO",
+      "status": "arXiv v1 preprint; DATE 2027 acceptance claimed in author arXiv comment, official record not independently verified",
+      "method_category": "Training-free",
+      "latest_version": "v1",
+      "code_status": "Paper did not report a code link"
     }
   ],
   "supplementary_papers": [
@@ -182,6 +199,18 @@
       "first_seen_report": "reports/vla_pruning/2026-11-21.md",
       "scope": "Video VLM only; no robot manipulation or VLA experiments reported",
       "status": "arXiv v1 preprint; no verified conference acceptance"
+    },
+    {
+      "canonical_id": "arxiv:2611.29327",
+      "arxiv_id": "2611.29327",
+      "title": "FP-Prune: Rethinking Visual Token Pruning from an Information Gain Perspective",
+      "submitted_utc": "2026-11-22T08:42:58Z",
+      "first_public_date": "2026-11-24",
+      "first_public_basis": "Listed among arXiv cs.CV new submissions for Tuesday 24 November 2026",
+      "url": "https://arxiv.org/abs/2611.29327",
+      "first_seen_report": "reports/vla_pruning/2026-11-25.md",
+      "scope": "VLM-only; no robot manipulation or VLA experiment reported; supplementary methodological relevance",
+      "status": "arXiv v1 preprint"
     }
   ],
   "scans": [
@@ -411,6 +440,16 @@
       "new_supplementary_count": 0,
       "updated_primary_count": 1,
       "indexed_existing_update_count": 1,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-25",
+      "window_start_utc": "2026-11-21T19:13:25Z",
+      "window_end_utc": "2026-11-24T19:13:25Z",
+      "report_path": "reports/vla_pruning/2026-11-25.md",
+      "new_primary_count": 1,
+      "new_supplementary_count": 1,
+      "updated_primary_count": 1,
       "backfilled": false
     }
   ]
