@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T21:33:48Z",
+  "updated_at": "2026-11-26T01:29:21Z",
   "primary_papers": [
     {
       "canonical_id": "arxiv:2611.02284",
@@ -104,6 +104,22 @@
       "method_category": "Training-free",
       "latest_version": "v1",
       "code_status": "Paper did not report a code link"
+    },
+    {
+      "canonical_id": "arxiv:2611.31954",
+      "arxiv_id": "2611.31954",
+      "title": "Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
+      "submitted_utc": "2026-11-24T04:58:24Z",
+      "first_public_date": "2026-11-25",
+      "first_public_basis": "Listed among arXiv cs.AI new submissions for Wednesday 25 November 2026",
+      "url": "https://arxiv.org/abs/2611.31954",
+      "project_url": "https://lin0e0.github.io/TauPrune-VLA/",
+      "first_seen_report": "reports/vla_pruning/2026-11-26.md",
+      "scope": "Training-free scale-adaptive visual token pruning; OpenVLA-OFT/pi0.5/CogACT, LIBERO/SIMPLER, Aloha/TIANJI real robots, head/wrist cameras",
+      "status": "arXiv v1 preprint; no verified conference acceptance",
+      "method_category": "Training-free",
+      "latest_version": "v1",
+      "code_status": "Project page exists; public code repository not verified"
     }
   ],
   "supplementary_papers": [
@@ -450,6 +466,16 @@
       "new_primary_count": 1,
       "new_supplementary_count": 1,
       "updated_primary_count": 1,
+      "backfilled": false
+    },
+    {
+      "report_date": "2026-11-26",
+      "window_start_utc": "2026-11-22T16:02:40Z",
+      "window_end_utc": "2026-11-25T16:02:40Z",
+      "report_path": "reports/vla_pruning/2026-11-26.md",
+      "new_primary_count": 1,
+      "new_supplementary_count": 0,
+      "updated_primary_count": 0,
       "backfilled": false
     }
   ]
